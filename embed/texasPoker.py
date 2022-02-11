@@ -9,5 +9,4 @@ def getEmbed() -> Embed:
     embed.colour = 0x000000 #0x留着，后面加颜色编号
     embed.set_thumbnail(url="https://www.funnynation.org/wp-content/uploads/2022/02/德州.png") #右上角的图
 
-
     return embed

@@ -13,6 +13,6 @@ def getEmbed() -> Embed:
     embed.set_author(name="Linbin Pang", url="https://google.com", icon_url="https://cdn.discordapp.com/embed/avatars/0.png")
     embed.set_thumbnail(url="https://cdn.discordapp.com/embed/avatars/0.png") #右上角的图
     embed.set_footer(text="This is the footer", icon_url="https://cdn.discordapp.com/embed/avatars/0.png") #脚注
-    embed.set_image(url="https://www.teenet.me/wp-content/uploads/2022/01/funnyNation.png") #主图
+    embed.set_image(url="https://www.funnynation.org/wp-content/uploads/2022/02/dc横幅3-scaled.gif") #主图
 
     return embed

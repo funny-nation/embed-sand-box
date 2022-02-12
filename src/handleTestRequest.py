@@ -21,7 +21,8 @@ async def handleTestRequest(client: Client, message: Message):
             embed: Embed = targetModule.getEmbed()
             await channel.send(embed=embed)
             return
-        except Exception:
+        except Exception as err:
+            await channel.send(f"{err}")
             await channel.send(f"File \"{fileName}\" does not meet the requirement")
             return
 

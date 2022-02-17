@@ -4,7 +4,9 @@ from discord import Embed
 def getEmbed() -> Embed:
     embed = Embed()
     embed.title = "user_name的红包已经发出!" #大标题
-    embed.description = "恭喜user！你抢到了100元！ \n恭喜user！你抢到了100元！\n恭喜user！你抢到了100元！"
+    embed.add_field(name="-", value="恭喜user！你抢到了100元！", inline=False)
+    embed.add_field(name="-", value="恭喜user！你抢到了100元！", inline=False)
+    embed.add_field(name="-", value="恭喜user！你抢到了100元！", inline=False)
     embed.add_field(name="恭喜运气王user！", value="你抢到了最大的红包！100元！", inline=False)
     embed.colour = 0xff2121 #0x留着，后面加颜色编号
     embed.set_thumbnail(url="https://www.funnynation.org/wp-content/uploads/2022/02/红包.png") #右上角的图
